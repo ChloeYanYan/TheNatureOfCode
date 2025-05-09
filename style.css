@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+
+  body {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    font-family: sans-serif;
+  }
+
+  #canvas-container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  canvas {
+    display: block;
+  }
